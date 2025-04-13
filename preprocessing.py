@@ -60,15 +60,6 @@ def load_dataset(root, transform):
 
     return dataset, dataset_database, dataset_query, n_query
 
-# Validate image paths for the database and query datasets
-# validate_image_paths(dataset_database)
-# validate_image_paths(dataset_query)
-
-# Use data loaders for batch processing
-# loader_database = DataLoader(dataset_database, batch_size=32, shuffle=False, num_workers=0)
-# loader_query = DataLoader(dataset_query, batch_size=32, shuffle=False, num_workers=0)
-print("load data loader")
-
 
 
 def load_model(name, device):
